@@ -13,3 +13,4 @@ pytest
 # once azureml-rag fixes, we should remove the langchain reference from this file
 langchain==0.0.324
 semantic-kernel
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
